@@ -32,7 +32,7 @@ const PersonalFitness: React.FC = () => {
       style={{ backgroundImage: `url(${bg})` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-80 z-0" />
+      <div className="absolute inset-0 bg-black opacity-60 z-0" />
 
       {/* Header */}
       <h1 className="absolute top-6 left-6 lg:left-10 z-10 text-3xl sm:text-4xl lg:text-6xl font-bold text-[#EB7210] font-[Orbitron] w-[90%] sm:w-[80%] lg:w-[680px]">
