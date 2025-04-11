@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <div className={`fixed justify-between top-0 left-1/2 transform -translate-x-1/2 flex items-center px-4 lg:px-8 py-4 bg-[#111311] border-2 border-[#232323] rounded-full font-orbitron z-30 transition-all ease-in-out duration-300 w-[80vw] lg:w-[80vw] mt-10 ${isScrolled ? 'bg-opacity-80 backdrop-blur-md' : ''}`}>
+    <div className={`fixed justify-between top-0 left-1/2 transform -translate-x-1/2 flex items-center px-4 lg:px-8 py-4 bg-[#111311] border-2 border-[#232323] rounded-3xl font-orbitron z-30 transition-all ease-in-out duration-300 w-[80vw] lg:w-[80vw] mt-10 ${isScrolled ? 'bg-opacity-80 backdrop-blur-md' : ''}`}>
       {/* Logo */}
       <div className="flex items-center gap-16 pl-4">
         <Link to="/" className="flex items-center">
@@ -93,9 +93,9 @@ const Navbar: React.FC = () => {
       )}
 
       {/* Join button */}
-      <Link to="/join" className="hidden lg:block text-white bg-[#EB7210] px-8 py-4 rounded-full text-xl font-semibold relative overflow-hidden group transition-all duration-300">
+      <Link to="/join" className="hidden lg:block text-white bg-[#EB7210] px-8 py-4 rounded-2xl text-xl font-semibold relative overflow-hidden group transition-all duration-300">
         Join Us Now
-        <span className="absolute top-0 -left-4 w-[10px] h-[100px] bg-white transform -skew-x-12 opacity-80 transition-all duration-500 group-hover:translate-x-[240px] group-hover:opacity-100"/>
+        <span className="absolute top-0 -left-5 w-[10px] h-[100px] bg-white transform -skew-x-12 opacity-80 transition-all duration-500 group-hover:translate-x-[240px] group-hover:opacity-100"/>
       </Link>
     </div>
   );

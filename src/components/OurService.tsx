@@ -30,7 +30,7 @@ const OurService: React.FC = () => {
         {services.map((service, i) => (
           <div
             key={i}
-            className={`relative group h-[600px] w-full overflow-hidden bg-center bg-cover ${i === 1 || i === 3 ? "lg:mt-10" : ""}`}
+            className={`relative group h-[600px] w-full overflow-hidden bg-center bg-cover ${i === 1 || i === 3 ? "lg:mt-20" : ""}`}
           >
             {/* Zooming Background */}
             <div

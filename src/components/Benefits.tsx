@@ -99,10 +99,10 @@ const Benefits: React.FC = () => {
         <div className="mt-8" data-aos="fade-up" data-aos-delay="200">
           <Link
             to="/join"
-            className="inline-block text-white bg-[#EB7210] px-8 py-4 rounded-full text-xl font-semibold relative overflow-hidden group transition-all duration-300"
+            className="inline-block text-white bg-[#EB7210] px-8 py-4 rounded-2xl text-xl font-orbitron font-semibold relative overflow-hidden group transition-all duration-300"
           >
             Get Started
-            <span className="absolute top-0 -left-4 w-[10px] h-[100px] bg-white transform -skew-x-12 opacity-80 transition-all duration-500 group-hover:translate-x-[240px] group-hover:opacity-100" />
+            <span className="absolute top-0 -left-5 w-[10px] h-[100px] bg-white transform -skew-x-12 opacity-80 transition-all duration-500 group-hover:translate-x-[240px] group-hover:opacity-100" />
           </Link>
         </div>
       </div>

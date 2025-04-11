@@ -101,10 +101,10 @@ const Services: React.FC = () => {
             {/* "Start" Button */}
             <Link
               to={service.link}
-              className="mt-4 text-white bg-[#EB7210] px-13 py-2 rounded-full text-xl font-orbitron relative overflow-hidden group transition-all duration-300"
+              className="mt-4 text-white bg-[#EB7210] px-13 py-2 rounded-2xl text-xl font-orbitron relative overflow-hidden group transition-all duration-300"
             >
               Start
-              <span className="absolute top-0 -left-4 w-[8px] h-[80px] bg-white transform -skew-x-16 opacity-80 transition-all duration-500 group-hover:translate-x-[180px] group-hover:opacity-100" />
+              <span className="absolute top-0 -left-5 w-[8px] h-[80px] bg-white transform -skew-x-16 opacity-80 transition-all duration-500 group-hover:translate-x-[180px] group-hover:opacity-100" />
             </Link>
           </div>
         ))}

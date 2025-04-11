@@ -7,6 +7,7 @@ import { VideoCard } from "./components/VideoCard";
 import Services from './components/Services'
 import OurService from './components/OurService';
 import Benefits from './components/Benefits'
+import PersonalFitness from './components/PersonalFitness';
 import "./App.css"
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Services />
       <OurService />
       <Benefits />
+      <PersonalFitness />
     </Router>
   );
 };

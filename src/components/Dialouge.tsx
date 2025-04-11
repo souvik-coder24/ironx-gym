@@ -9,7 +9,7 @@ const Dialouge: React.FC = () => {
     AOS.init({ duration: 1000, once: true });
 
     const targets = { count1: 463, count2: 163, count3: 13 };
-    const duration = 7000;
+    const duration = 10000;
     const interval = 10;
 
     let progress = { count1: 0, count2: 0, count3: 0 };
