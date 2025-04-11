@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bodybuildingImg from "../assets/images/bodybuilding.jpg";
+import bodybuildingImg from "../assets/images/BodyBuilding.jpg";
 import martialArtsImg from "../assets/images/martial.jpg";
 import danceImg from "../assets/images/dancing.jpg";
 import yogaImg from "../assets/images/yoga.jpeg";
